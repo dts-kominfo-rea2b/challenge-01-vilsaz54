@@ -4,6 +4,8 @@
 const firstUser = {};
 const secondUser = {};
 
+console.log();
+
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 
