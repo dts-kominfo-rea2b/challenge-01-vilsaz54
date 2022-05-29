@@ -6,7 +6,7 @@ const firstUser= {
     gender: "Female",
     age:  17,
     email: "monica@dingdong.com",
-    favoriteColor: new Set(["Yellow","Pink","White","Purple"]),
+    favoriteColor: new Set(["Yellow", "Pink", "White", "Purple"]),
     isHavePet:true,
     education: [
         { 
@@ -24,14 +24,14 @@ const firstUser= {
             'city': 'Tangerang'
         }
     ],
-    favoriteRestaurant: new Set(["Bento","Sushi","Pancake","Eggy","Tempura","Bento","Eggy","Padang","Tteok","Sushi","Sushi"])
+    favoriteRestaurant: new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"])
 };
 const secondUser = {
     name: "Wendy",
     gender: "Male",
     age:  23,
     email: "wendy@dingdong.com",
-    favoriteColor: new Set(["blue","black","grey"]),
+    favoriteColor: new Set(["Blue","Black","Grey"]),
     isHavePet:false,
     education: [
         { 
@@ -54,7 +54,7 @@ const secondUser = {
             'city': 'Tanggerang'
         }
     ],
-    favoriteRestaurant: new Set(["Tempura","Bento","Sushi","Pancake","Padang","Katsu","Geprek","Pancake","Eggy"])
+    favoriteRestaurant: new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
