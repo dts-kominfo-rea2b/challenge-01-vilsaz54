@@ -54,7 +54,7 @@ const secondUser = {
             'city': 'Tanggerang'
         }
     ],
-    favoriteRestaurant: new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])
+    favoriteRestaurant: new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake"])
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
