@@ -22,15 +22,45 @@ const firstUser= {
         {
             'name': 'SMA 03',
             'city': 'Tangerang'
-        },
+        }
     ],
     favoriteRestaurant: new Set(["Bento","Sushi","Pancake","Eggy","Tempura","Bento","Eggy","Padang","Tteok","Sushi","Sushi"])
 };
-const secondUser = {};
+const secondUser = {
+    name: "wendy",
+    gender: "Male",
+    age:  23,
+    email: "wendy@dingdong.com",
+    favoriteColor: new Set(["blue","black","grey"]),
+    isHavePet:false,
+    education: [
+        { 
+            'name': 'SD 02',
+            'city': 'Jakarta',
+            'graduate': 2010
+        },
+        {
+            'name': 'SMP 03',
+            'city': 'bogor',
+            'graduate': 2013
+        },
+        {
+            'name': 'SMA 01',
+            'city': 'Surabaya',
+            'graduate': 2016
+        },
+        {
+            'name': 'Universitas Maju',
+            'city': 'Tanggerang'
+        }
+    ],
+    favoriteRestaurant: new Set(["Tempura","Bento","Sushi","Pancake","Padang","Katsu","Geprek","Pancake","Eggy"])
+};
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 users[0]=firstUser;
+users[1]=secondUser;
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
